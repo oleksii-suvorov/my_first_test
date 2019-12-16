@@ -1,0 +1,261 @@
+body {
+  font-family: Noto Sans, Helvetica;
+}
+
+.box {
+  max-width: 1920px;
+  font-size: 30px;
+  padding: 0px;
+}
+
+#body {
+  max-width: 1825px;
+  font-size: 30px;
+  padding-left: 15px;
+  padding-right: 0px;
+}
+
+.navbar {
+  font-size: 40px;
+  letter-spacing: -1px;
+  webkit-box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.15);
+  moz-box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.15);
+  box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.15);
+  width: 1920px;
+  height: 122px;
+  margin: 0px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.act {
+  background-color: #A8C6FF;
+  webkit-box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.15);
+  moz-box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.15);
+  box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.15);
+}
+
+#forButton {
+  margin-top: 0px;
+  text-align: center;
+  padding: 0px;
+  margin-right: 0px;
+  height: 62px;
+  text-align: center;
+  color: #8B8B8B;
+  width: 1825px;
+  display: flex;
+  align-items: center;
+}
+
+#redButton {
+  border-radius: 3px;
+  padding: 0px;
+  width: 200px;
+  height: 30px;
+  margin-right: 300px;
+  height: 57px;
+  width: 301px;
+  font-size: 25px;
+  padding-right: 0px;
+}
+
+#forButton .col-4 {
+  padding-right: 0px;
+}
+
+#sort {
+margin-top: 40px;
+height: 57px;
+}
+
+#sort .col-3 {
+  padding-right: 0px;
+  padding-left: 58px;
+  color: #8B8B8B;
+}
+
+#hideSort p {
+  display: inline;
+  padding-left: 18px;
+}
+
+.orderTriggers {
+  color: #070707;
+}
+
+.orderTriggers:hover {
+  color: #1464FF;
+  cursor: pointer;
+}
+
+.orderTriggers::selection {
+    background: transparent;
+}
+
+.white {
+  background-color: white;
+}
+
+.cards .row {
+  margin-top: 15px;
+  text-align: center;
+  border: 1px solid rgb(235, 236, 237);
+  border-radius: 10px;
+  width: 1825px;
+  height: 99px;
+  display: flex;
+  align-items: center;
+}
+
+.radio {
+  ms-transform: scale(1.4);
+  webkit-transform: scale(1.4);
+  transform: scale(1.4);
+}
+
+.radio:hover {
+  cursor: pointer;
+}
+
+.cards .row:hover {
+  webkit-box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.15);
+  moz-box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.15);
+  box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.15);
+  margin-left: -12px;
+}
+
+/* .noHover {
+  margin-left: 0px;
+} */
+
+#statusDiv {
+padding-right: 184px;
+}
+
+.col-3 .btn {
+  width: 231px;
+  height: 57px;
+  font-size: 25px;
+  margin-left: 44px;
+}
+
+img {
+  display: block;
+  width: 76px;
+  height: 76px;
+}
+
+
+
+/* const col3 = {
+  paddingLeft: "0px",
+}
+
+
+
+
+
+const spanStatus = {
+  marginLeft: "13px",
+  fontSize: "17px",
+}
+
+
+
+const statusFas = {
+  color: "green"
+}
+
+const col3FormGroup = {
+  fontSize: "15px",
+  fontWeight: "bold",
+}
+
+const btn = {
+  width: "50%",
+  height: "35%"
+}
+const iconFas = {
+  fontSize: "30px",
+  color: "rgb(112, 174, 212)",
+}
+
+const statusRed = {
+  color: "red"
+}
+
+const newUser = {
+  marginTop: "150px",
+}
+
+const brand = {
+  marginLeft: "33%",
+}
+
+const retur = {
+fontSize: "13px",
+marginTop: "5px",
+}
+
+const modify = {
+  fontSize: "15px",
+  fontSeight: "bold",
+} */
+
+
+
+
+
+
+
+/*
+
+div.container {
+  max-width: 1270px;
+}
+
+#title {
+  text-align: center;
+  color: grey;
+
+}
+
+span.status {
+  margin-left: 10px;
+  font-size: 12px;
+}
+span.name {
+  font-weight: 600;
+}
+
+
+.navbar .fas {
+  cursor: pointer;
+  font-size: 30px;
+  color: grey;
+  margin-left: 105px;
+}
+
+
+.cards .row div {
+  padding: 23px 20px 5px 20px;
+}
+.cards .col-2 button {
+  padding: 0px;
+  width: 70%;
+  height: 70%;
+  margin-right: 100px;
+}
+
+
+img {
+  display: inline;
+  width: 56px;
+  height: 56px;
+  margin-right: 70px;
+}
+
+/* .cards .row:hover {
+  background-color: rgb(212, 228, 252);
+} */

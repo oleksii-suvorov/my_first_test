@@ -1,0 +1,84 @@
+body {
+  font-family: Noto Sans, Helvetica, sans-serif;
+}
+
+.navbar {
+  font-size: 25px;
+  webkit-box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.15);
+  moz-box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.15);
+  box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.15);
+  margin-bottom: 15px;
+}
+
+.navbar-brand {
+  border-right: 2px solid rgb(235, 236, 237);
+  padding-right: 12px;
+  margin-right: 0px;
+  font-size: 15px;
+  text-shadow: -5px 15px 4px #98A790;
+}
+
+.col-3 {
+  padding-left: 0px;
+}
+
+p {
+  color: grey;
+  font-size: 20px;
+}
+
+img {
+  width: 170px;
+  height: 170px;
+  margin: 10px 25px 25px 0px;
+}
+
+span.status {
+  margin-left: 13px;
+  font-size: 17px;
+}
+
+span.name {
+  font-weight: 600;
+  font-size: 27px;
+}
+
+.status .fas {
+  color: green;
+}
+
+.col-3 .form-group {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn {
+  width: 50%;
+  height: 35%;
+}
+.icon .fas {
+  font-size: 30px; 
+  color: rgb(112, 174, 212);
+}
+
+.status .red {
+  color: red;
+}
+
+#new_user {
+  margin-top: 150px;
+}
+
+#brand {
+  margin-left: 33%;
+}
+
+#return {
+font-size: 13px;
+margin-top: 5px;
+}
+
+#modify {
+  font-size: 15px;
+  font-weight: bold;
+}

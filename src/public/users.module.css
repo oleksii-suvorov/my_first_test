@@ -1,0 +1,78 @@
+.body {
+
+}
+
+.navbar {
+  font-size: 28px;
+  webkit-box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.15);
+  moz-box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.15);
+  box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.15);
+  margin-bottom: 45px;
+  font-family: Noto Sans, Helvetica;
+  /* width: 1920px;
+  height: 122px; */
+}
+
+
+.cards .col-2 .btn {
+  padding: 0px;
+  width: 70%;
+  height: 70%;
+  margin-right: 200px;
+}
+
+.act {
+  background-color: rgb(204, 209, 217);
+  webkit-box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.15);
+  moz-box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.15);
+  box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.15);
+  margin-bottom: 10px;
+  margin-left: 1px;
+  margin-right: -1px;
+  font-weight: bold;
+}
+/*
+
+
+
+
+
+span.status {
+  margin-left: 10px;
+  font-size: 12px;
+}
+span.name {
+  font-weight: 600;
+}
+
+
+.navbar .fas {
+  cursor: pointer;
+  font-size: 30px;
+  color: grey;
+  margin-left: 105px;
+}
+
+.cards .row div {
+  padding: 20px 20px 5px 20px;
+}
+
+#forButton button {
+  padding: 0px;
+  width: 200px;
+  height: 30px;
+  margin-left: 110px;
+}
+#forButton {
+  margin-top: 10px;
+  text-align: center;
+  padding: 0px;
+  margin-right: 0px;
+  height: 30px;
+}
+
+ */
+
+/* .cards .row:hover {
+  background-color: rgb(212, 228, 252);
+} */

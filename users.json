@@ -1,0 +1,73 @@
+{
+ "users": [
+    {
+      "id": "1",
+      "name": "Marco Salvi",
+      "phone": "(640) 339 7622",
+      "birthdate": "24/12/1992",
+      "email": "marco.salvi@example.com",
+      "urlAvatar": "https://uinames.com/api/photos/male/4.jpg",
+      "status": true
+    },
+    {
+      "id": "2",
+      "name": "Silvia Piras",
+      "phone": "(719) 220 1911",
+      "birthdate": "03/05/1996",
+      "email": "silvia.piras@example.com",
+      "urlAvatar": "https://uinames.com/api/photos/female/26.jpg",
+      "n_purchases": 2,
+      "status": false
+    },
+    {
+      "id": "3",
+      "name": "Federico Riva",
+      "phone": "(925) 329 9055",
+      "birthdate": "28/04/1986",
+      "email": "federico.riva@example.com",
+      "urlAvatar": "https://uinames.com/api/photos/male/17.jpg",
+      "n_purchases": 1,
+      "status": false
+    },
+    {
+      "id": "4",
+      "name": "Noemi Papini",
+      "phone": "(230) 620 8323",
+      "birthdate": "05/12/1991",
+      "email": "noemi.papini@example.com",
+      "urlAvatar": "https://uinames.com/api/photos/female/21.jpg",
+      "n_purchases": 0,
+      "status": false
+    },
+    {
+      "id": "5",
+      "name": "Francesca Ricci",
+      "phone": "(424) 484 9571",
+      "birthdate": "31/01/1986",
+      "email": "freancesca86@example.com",
+      "urlAvatar": "https://uinames.com/api/photos/female/17.jpg",
+      "n_purchases": 4,
+      "status": true
+    },
+    {
+      "id": "6",
+      "name": "Gabriele Conte",
+      "phone": "(496) 239 2145",
+      "birthdate": "21/03/1986",
+      "email": "gabriele_86@example.com",
+      "urlAvatar": "https://uinames.com/api/photos/male/1.jpg",
+      "n_purchases": 7,
+      "status": true
+    },
+    {
+      "id": "7",
+      "name": "Greta Silvestri",
+      "phone": "(450) 179 3970",
+      "birthdate": "27/08/1992",
+      "email": "greta92@example.com",
+      "urlAvatar": "https://uinames.com/api/photos/female/9.jpg",
+      "n_purchases": 2,
+      "status": true
+    }
+  ]
+}

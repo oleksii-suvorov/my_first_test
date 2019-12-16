@@ -57,14 +57,14 @@ class User extends React.Component {
 
   updateUsers = event => {
     let selectedUser = this.state;
-    let state = this.state;
+    
     event.preventDefault();
     const user = {
       id: selectedUser.id,
       name: selectedUser.name,
-      phone: state.phone,
-      birthdate: state.birthdate,
-      email: state.email,
+      phone: selectedUser.phone,
+      birthdate: selectedUser.birthdate,
+      email: selectedUser.email,
       urlAvatar: selectedUser.urlAvatar,
       n_purchases: selectedUser.n_purchases,
       status: selectedUser.status
@@ -82,15 +82,16 @@ class User extends React.Component {
     const responce = await api_call.json();
     const { id, name, phone, birthdate, email, urlAvatar, n_purchases, status} = responce[0];
     this.setState({
-      id: id,
-      name: name,
-      phone: phone,
-      birthdate: birthdate,
-      email: email,
-      urlAvatar: urlAvatar,
-      in_purchases: n_purchases,
-      status: status,
+      id,
+      name,
+      phone,
+      birthdate,
+      email,
+      urlAvatar,
+      n_purchases,
+      status,
     });
+    console.log(this.state)
   };
 
   render() {
